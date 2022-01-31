@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: 10px auto;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: rgb(51, 165, 240) 0px 10px 30px -10px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(116, 0, 116);
+  font-size: 5rem;
+}
+
+.first,
+.second {
+  margin-top: 10px;
+}
+
+/* ==========Dark and light theme button========= */
+
+.first {
+  background: grey;
+  padding: 10px 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.two_d_button,
+.three_d_button {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.general-style {
+  border-radius: 3px;
+  font-size: 1.4rem;
+  padding: 2px 12px;
+  border: 1px solid black;
+}
+
+.dark {
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.2);
+  background: rgb(106, 106, 106);
+  color: white;
+  text-shadow: 0 2px 0 red;
+}
+
+.dark:hover {
+  background: black;
+}
+
+.dark:active {
+  background: black;
+  border-color: cyan;
+}
+
+.light {
+  background: rgb(164, 164, 164);
+  color: rgb(55, 55, 55);
+  text-shadow: 0 2px 0 red;
+}
+
+.light:hover {
+  background: rgb(225, 225, 225);
+  color: black;
+}
+
+.light:active {
+  background: rgb(225, 225, 225);
+  border-color: cyan;
+}
+
+/* =================3D button================ */
+
+.square {
+  position: relative;
+  background: rgb(70, 70, 70);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  box-shadow: 6px 6px 0 grey;
+}
+
+.square:active {
+  background: red;
+  top: 3px;
+  left: 3px;
+  box-shadow: 2px 2px 0 grey;
+}
+
+.square:active {
+}
